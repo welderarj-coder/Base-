@@ -1,0 +1,108 @@
+initialize foundry project for base l2
+
+feat: add ERC20 interface for base-native tokens
+
+feat: implement gas-optimized minting logic
+
+test: add unit tests for token transfer functionality
+
+docs: create README with Base Sepolia deployment guide
+
+feat: add Ownable pattern for contract security
+
+refactor: optimize storage slots to reduce L2 gas
+
+feat: implement burn mechanism for deflationary logic
+
+ci: add github actions for automated solidity testing
+
+feat: add EIP-2612 permit for gasless approvals
+
+test: simulate high-throughput transactions on Base
+
+fix: resolve potential reentrancy in withdraw function
+
+feat: add BaseScan verification script
+
+docs: document constructor arguments for mainnet
+
+style: apply prettier-solidity formatting
+
+🔵 Project 2: Base Account Abstraction Kit (15 Commits)
+Focus: ERC-4337 and Smart Wallets.
+
+feat: initial smart account contract structure
+
+feat: implement validateUserOp for ERC-4337
+
+feat: add support for paymaster integration
+
+docs: explain account abstraction benefits on Base
+
+feat: implement social recovery logic (3-of-5)
+
+test: debug user operation bundling on local node
+
+feat: add signature validation using secp256r1
+
+fix: optimize gas estimation for user operations
+
+feat: add batch transaction support (Multi-call)
+
+docs: add diagram for AA flow on Base
+
+feat: implement session keys for dApp gaming
+
+test: integration test with EntryPoint contract
+
+chore: update dependencies to latest viem version
+
+feat: add simple frontend hook for smart account
+
+refactor: clean up error codes for better UX
+
+🟡 Project 3: Base On-Chain Reputation / NFTs (10 Commits)
+Focus: Soulbound tokens and Identity.
+
+feat: implement Soulbound Token (SBT) for Base Guilds
+
+feat: add URI metadata generation on-chain
+
+feat: implement IPFS integration for NFT assets
+
+test: verify non-transferability of tokens
+
+docs: setup guide for deploying NFT collection on Base
+
+feat: add whitelist functionality using Merkle Trees
+
+fix: handle edge cases for minting limits
+
+feat: add event emitters for indexing via The Graph
+
+style: update metadata schema to OpenSea standards
+
+feat: add royalty support via EIP-2981
+
+🔴 Project 4: Base Data & Analytics Scripts (10 Commits)
+Focus: Transparency and Monitoring.
+
+feat: add script to fetch real-time gas prices on Base
+
+feat: implement L1 to L2 bridge monitor
+
+docs: compare transaction costs Base vs Ethereum L1
+
+feat: add python script for top holders analysis
+
+feat: create CLI tool to check contract bytecodes
+
+fix: improve error handling for RPC timeouts
+
+feat: add automated daily report of network activity
+
+docs: list useful Base RPC endpoints and tools
+
+feat: add ethers.js provider wrapper for Base
+
+chore: final repository cleanup and license addition
