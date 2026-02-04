@@ -28,7 +28,7 @@ docs: document constructor arguments for mainnet
 
 style: apply prettier-solidity formatting
 
-🔵 Project 2: Base Account Abstraction Kit (15 Commits)
+Project 2: Base Account Abstraction Kit (15 Commits)
 Focus: ERC-4337 and Smart Wallets.
 
 feat: initial smart account contract structure
@@ -61,7 +61,7 @@ feat: add simple frontend hook for smart account
 
 refactor: clean up error codes for better UX
 
-🟡 Project 3: Base On-Chain Reputation / NFTs (10 Commits)
+Project 3: Base On-Chain Reputation / NFTs (10 Commits)
 Focus: Soulbound tokens and Identity.
 
 feat: implement Soulbound Token (SBT) for Base Guilds
@@ -84,7 +84,7 @@ style: update metadata schema to OpenSea standards
 
 feat: add royalty support via EIP-2981
 
-🔴 Project 4: Base Data & Analytics Scripts (10 Commits)
+Project 4: Base Data & Analytics Scripts (10 Commits)
 Focus: Transparency and Monitoring.
 
 feat: add script to fetch real-time gas prices on Base
