@@ -1,0 +1,1 @@
+git commit -m 'refactor: extract block validator into standalone package'
